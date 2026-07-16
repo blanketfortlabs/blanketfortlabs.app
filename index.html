@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blanket Fort Labs LLC</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta
+    name="description"
+    content="Blanket Fort Labs LLC is an Oregon benefit company building privacy-first health software, starting with Moonstrate, a private period and cycle tracker."
+  />
+  <style>
+    :root {
+      --bg: #eaf3de;
+      --ink: #173404;
+      --accent: #d85a30;
+      --gold: #ef9f27;
+    }
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+      display: flex;
+      min-height: 100vh;
+      justify-content: center;
+      padding: 3rem 1.5rem;
+    }
+    main {
+      max-width: 38rem;
+    }
+    .mark {
+      width: 6.5rem;
+      height: auto;
+      display: block;
+      margin-left: -0.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0.5rem 0 0.25rem;
+    }
+    .sub {
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    a {
+      color: var(--accent);
+    }
+    address {
+      font-style: normal;
+      margin: 2rem 0;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      opacity: 0.75;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <svg class="mark" viewBox="0 0 100 70" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <linearGradient id="rope-l" x1="2" y1="0" x2="22" y2="0" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#173404" stop-opacity="0" />
+          <stop offset="1" stop-color="#173404" stop-opacity="1" />
+        </linearGradient>
+        <linearGradient id="rope-r" x1="66" y1="0" x2="98" y2="0" gradientUnits="userSpaceOnUse">
+          <stop offset="0" stop-color="#173404" stop-opacity="1" />
+          <stop offset="1" stop-color="#173404" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      <!-- clothesline, fading past the blanket ends -->
+      <path d="M2 16 Q13 23 22 27" stroke="url(#rope-l)" stroke-width="1.6" fill="none" stroke-linecap="round" />
+      <path d="M66 20.5 Q82 13 98 8" stroke="url(#rope-r)" stroke-width="1.6" fill="none" stroke-linecap="round" />
+      <!-- dark interior, opening to the right -->
+      <path d="M66 22 L84 62 L52 62 Z" fill="#2a1710" />
+      <!-- curious head peeking out -->
+      <circle cx="59" cy="50" r="5" fill="var(--bg)" />
+      <circle cx="60.5" cy="49" r="0.9" fill="#2a1710" />
+      <circle cx="63.2" cy="49.4" r="0.9" fill="#2a1710" />
+      <path d="M60.7 52.4 Q61.9 53 63.1 52.7" stroke="#2a1710" stroke-width="0.8" fill="none" stroke-linecap="round" />
+      <!-- dull-red blanket draped at an angle -->
+      <path d="M22 28 Q44 28.5 66 22 L52 62 Q44.6 57 37.3 62 Q30 57 22.7 62 Q15 57 8 62 Z" fill="#a0402f" />
+      <path d="M22 28 Q44 28.5 66 22 L66 19.5 Q44 25.5 22 25.5 Z" fill="#7a2e22" />
+    </svg>
+    <h1>Blanket Fort Labs LLC</h1>
+    <p class="sub">An Oregon benefit company building privacy-first health software.</p>
+
+    <p>
+      Our stated public benefit: expanding access to private, surveillance-free
+      menstrual and cycle health tools.
+    </p>
+
+    <p>
+      Our first product is <strong>Moonstrate</strong>, a period and cycle tracker
+      in development for iOS. Every entry stays on your own device: no account, no
+      cloud, no ads, no trackers. The code will be open source, so anyone can
+      verify that what we say is exactly what we do.
+    </p>
+
+    <address>
+      <a href="mailto:hello@blanketfortlabs.app">hello@blanketfortlabs.app</a><br />
+      Blanket Fort Labs LLC<br />
+      5441 S Macadam Ave # 4140<br />
+      Portland, OR 97239
+    </address>
+
+    <footer>&copy; 2026 Blanket Fort Labs LLC &middot; Oregon registry no. 260101192</footer>
+  </main>
+</body>
+</html>
